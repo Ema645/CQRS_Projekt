@@ -4,7 +4,7 @@
 This template serves as a starter code skeleton for the CQRS lab in the *System Architectures* course.
 The project is structured into the following components:
 - `eventbus`: A skeleton for a standalone Quarkus-based implementation of an event bus. It is responsible for decoupling the read side and write side by handling the distribution of events.
-- `writeside`: A skeleton for a standalone Quarkus-based application that contains the command logic of the CQRS architecture used in this lab. It processes incoming commands, applies business rules, and emits corresponding events.
+- `writeside`: A skeleton hallo for a standalone Quarkus-based application that contains the command logic of the CQRS architecture used in this lab. It processes incoming commands, applies business rules, and emits corresponding events.
 - `readside`: A skeleton for a standalone Quarkus-based application that contains the query logic of the CQRS architecture. It listens to events from the event bus and maintains read models optimized for querying.
 
 
